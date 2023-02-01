@@ -270,14 +270,16 @@ main div a {
     border-radius: 15px;
     margin-right: 150px; }
 
-main div div form fieldset input {
-  width: 60px;
-  height: 30px;
-  font-weight: 700;
-  background-color: #f0c18f;
-  border-color: #d87070;
-  border-radius: 5px;
-  margin-top: 5px; }
+main div div form fieldset {
+  color: maroon; }
+  main div div form fieldset input {
+    width: 60px;
+    height: 30px;
+    font-weight: 700;
+    background-color: #f0c18f;
+    border-color: #d87070;
+    border-radius: 5px;
+    margin-top: 5px; }
 
 main div div form section fieldset div div input {
   width: 60px;
