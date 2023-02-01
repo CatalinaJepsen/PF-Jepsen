@@ -1,0 +1,163 @@
+main {
+   margin-top: 1rem;
+  .cardSection {
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right:0;
+      margin-left: 0;
+      div {
+        div {
+          div {
+            justify-content: center;
+            text-align: center;
+            color: maroon;
+          }
+        }
+      }
+    }
+  }
+
+  section {
+    div {
+      
+      .huevoPascua {
+        width: 200px;
+      }
+      .text-center{
+        margin-top: 100px;
+        
+        div {
+          .btn-light {
+            background-color: $button-border;
+            border-color: $button-border;
+            border-style: outset;
+            border-radius: 50px;
+            border-width: 2px;
+
+            &:hover {
+              background-color: $button-active;
+              border-color: $button-border;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    div {
+      color: maroon;
+
+    
+      div {
+        
+        .card-text {
+          color: $button-border;
+        }
+        div {
+          .btn-light {
+            background-color: $button-border;
+            border-color: $button-border;
+            border-style: outset;
+            border-radius: 50px;
+            border-width: 2px;
+
+            &:hover {
+              background-color: $button-active;
+              border-color: $button-border;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+  div {
+    a {
+      .botonWsp {
+        -webkit-animation: heartbeat 2s steps(2, end) infinite both;
+        animation: heartbeat 2s steps(2, end) infinite both;
+        height: 80px;
+        padding: 10px 10px;
+        position: fixed;
+        bottom: 60px;
+        right: 0px;
+        z-index: 99;
+        border-radius: 700px;
+      }
+    }
+  }
+}
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}

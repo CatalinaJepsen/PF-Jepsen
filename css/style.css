@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  *::selection {
+    background-color: #d87070;
+    color: white; }
+
+body {
+  background-color: #efd8a4;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+body::-webkit-scrollbar {
+  width: 8px; }
+
+body::-webkit-scrollbar-thumb {
+  background-color: #d87070;
+  border-radius: 5px; }
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black; }
+
+ul li {
+  list-style: none; }
+
+header nav form .btn-formulario1 {
+  background-color: #d87070;
+  border-radius: 25px;
+  border-color: #d87070;
+  border-style: outset;
+  border-width: 3px; }
+  header nav form .btn-formulario1:hover {
+    background-color: #d89494;
+    border-color: #d87070; }
+
+header nav form .btn-formulario2 {
+  background-color: #d87070;
+  border-radius: 25px;
+  border-color: #d87070;
+  border-style: outset;
+  border-width: 3px; }
+  header nav form .btn-formulario2:hover {
+    background-color: #d89494;
+    border-color: #d87070; }
+
+footer div section .btnRedes1 {
+  border-color: #d87070;
+  border-style: outset;
+  border-radius: 50px;
+  border-width: 2px; }
+
+footer div section .btnRedes2 {
+  border-color: #d87070;
+  border-style: outset;
+  border-radius: 50px;
+  border-width: 2px; }
+
+header nav a .logo2 {
+  width: 100px;
+  border-radius: 50px; }
+  header nav a .logo2:hover {
+    background-color: #d89494; }
+
+header nav a .logo3 {
+  width: 100px;
+  border-radius: 50px; }
+  header nav a .logo3:hover {
+    background-color: #d89494; }
+
+header nav a .logo4 {
+  width: 100px;
+  border-radius: 50px; }
+  header nav a .logo4:hover {
+    background-color: #d89494; }
+
+header nav a .logo5 {
+  width: 100px;
+  border-radius: 50px; }
+  header nav a .logo5:hover {
+    background-color: #d89494; }
+
+header nav a .logo6 {
+  width: 100px;
+  border-radius: 50px; }
+  header nav a .logo6:hover {
+    background-color: #d89494; }
+
+header nav a .logo7 {
+  width: 100px;
+  border-radius: 50px; }
+  header nav a .logo7:hover {
+    background-color: #d89494; }
+
+header nav a .logo8 {
+  width: 100px;
+  border-radius: 50px; }
+  header nav a .logo8:hover {
+    background-color: #d89494; }
+
+header nav a .logo9 {
+  width: 100px;
+  border-radius: 50px; }
+  header nav a .logo9:hover {
+    background-color: #d89494; }
+
+header nav a .logo10 {
+  width: 100px;
+  border-radius: 50px; }
+  header nav a .logo10:hover {
+    background-color: #d89494; }
+
+header nav a .logo11 {
+  width: 100px;
+  border-radius: 50px; }
+  header nav a .logo11:hover {
+    background-color: #d89494; }
+
+header .colorbarra {
+  background-color: #f0c18f; }
+  header .colorbarra div a .logo1 {
+    width: 100px;
+    border-radius: 50px; }
+  header .colorbarra div div ul .btnEnfasis {
+    font-size: larger; }
+    header .colorbarra div div ul .btnEnfasis:hover {
+      background-color: #d87070; }
+
+main {
+  margin-top: 1rem; }
+  main .cardSection .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0; }
+    main .cardSection .row div div div {
+      justify-content: center;
+      text-align: center;
+      color: maroon; }
+  main section div .huevoPascua {
+    width: 200px; }
+  main section div .text-center {
+    margin-top: 100px; }
+    main section div .text-center div .btn-light {
+      background-color: #d87070;
+      border-color: #d87070;
+      border-style: outset;
+      border-radius: 50px;
+      border-width: 2px; }
+      main section div .text-center div .btn-light:hover {
+        background-color: #d89494;
+        border-color: #d87070; }
+  main section {
+    margin-top: 3rem;
+    margin-bottom: 1rem; }
+    main section div {
+      color: maroon; }
+      main section div div .card-text {
+        color: #d87070; }
+      main section div div div .btn-light {
+        background-color: #d87070;
+        border-color: #d87070;
+        border-style: outset;
+        border-radius: 50px;
+        border-width: 2px; }
+        main section div div div .btn-light:hover {
+          background-color: #d89494;
+          border-color: #d87070; }
+  main div a .botonWsp {
+    -webkit-animation: heartbeat 2s steps(2, end) infinite both;
+    animation: heartbeat 2s steps(2, end) infinite both;
+    height: 80px;
+    padding: 10px 10px;
+    position: fixed;
+    bottom: 60px;
+    right: 0px;
+    z-index: 99;
+    border-radius: 700px; }
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; } }
+
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; } }
+
+.footerFondo {
+  background-color: #f0c18f;
+  margin-top: auto; }
+
+main div h1 {
+  display: flex;
+  justify-content: center; }
+
+main div a {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  main div a .volverAtras {
+    font-weight: 700;
+    background-color: #f0c18f;
+    border-color: #d87070;
+    border-radius: 5px;
+    margin-top: 5px; }
+
+.headerBackground {
+  background: linear-gradient(315deg, #efd8a4 0%, #da7070 100%); }
+  .headerBackground div button {
+    width: 100px;
+    height: 40px;
+    font-weight: 700;
+    background-color: #f0c18f;
+    border-color: #d87070;
+    border-radius: 15px;
+    margin-right: 150px; }
+
+main div div form fieldset input {
+  width: 60px;
+  height: 30px;
+  font-weight: 700;
+  background-color: #f0c18f;
+  border-color: #d87070;
+  border-radius: 5px;
+  margin-top: 5px; }
+
+main div div form section fieldset div div input {
+  width: 60px;
+  height: 30px;
+  font-weight: 700;
+  background-color: #f0c18f;
+  border-color: #d87070;
+  border-radius: 5px;
+  margin-top: 5px; }
+
+@media screen and (max-width: 560px) {
+  .huevoPascua {
+    display: none; } }
+
+@media screen and (max-width: 320px) {
+  .fotoUno {
+    height: 150px;
+    width: 130px; }
+  iframe {
+    width: 200px; }
+  .botonWsp {
+    display: none; } }

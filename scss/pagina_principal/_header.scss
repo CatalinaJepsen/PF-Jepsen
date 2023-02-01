@@ -1,0 +1,24 @@
+header {
+  .colorbarra {
+    background-color: $color-secundario;
+    div {
+      a {
+        .logo1 {
+          width: 100px;
+          border-radius: 50px;
+        }
+      }
+
+      div {
+        ul {
+          .btnEnfasis {
+            font-size: larger;
+            &:hover {
+              background-color: $button-border;
+            }
+          }
+        }
+      }
+    }
+  }
+}

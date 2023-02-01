@@ -1,0 +1,51 @@
+@for $i from 1 through 2 {
+  header {
+    nav {
+      form {
+        .btn-formulario#{$i} {
+          background-color: $button-border;
+          border-radius: 25px;
+          border-color: $button-border;
+          border-style: outset;
+          border-width: 3px;
+
+          &:hover {
+            background-color: $button-active;
+            border-color: $button-border;
+          }
+        }
+      }
+    }
+  }
+}
+
+@for $b from 1 through 2 {
+  footer {
+    div {
+      section {
+        .btnRedes#{$b} {
+          border-color: $button-border;
+          border-style: outset;
+          border-radius: 50px;
+          border-width: 2px;
+        }
+      }
+    }
+  }
+}
+
+@for $f from 2 through 11 {
+  header {
+    nav {
+      a {
+        .logo#{$f} {
+          width: 100px;
+          border-radius: 50px;
+          &:hover {
+            background-color: $button-active;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import "./variables";
+@import "./reset";
+@import "./bucle";
+@import "./pagina_principal";
+@import "./menu_producto";
+@import "./sesion_contacto";
+
+@media screen and (max-width: 560px) {
+ .huevoPascua {
+  display:none;
+ }
+
+  }
+
+
+@media screen and (max-width: 320px) {
+  .fotoUno {
+    height: 150px;
+    width: 130px;
+  }
+
+  iframe {
+    width: 200px;
+  }
+  .botonWsp {
+    display: none;
+  }
+}
