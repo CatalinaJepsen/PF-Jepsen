@@ -131,56 +131,58 @@ header .colorbarra {
     header .colorbarra div div ul .btnEnfasis:hover {
       background-color: #d87070; }
 
-main {
-  margin-top: 1rem; }
-  main .cardSection .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 0;
-    margin-left: 0; }
-    main .cardSection .row div div div {
-      justify-content: center;
-      text-align: center;
-      color: maroon; }
-  main section div .huevoPascua {
-    width: 200px; }
-  main section div .text-center {
-    margin-top: 100px; }
-    main section div .text-center div .btn-light {
+main .cardSection .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0;
+  margin-left: 0; }
+  main .cardSection .row div div div {
+    justify-content: center;
+    text-align: center;
+    color: maroon; }
+
+main .productosTemp div .huevoPascua {
+  width: 200px; }
+
+main .productosTemp div .text-center {
+  margin-top: 100px; }
+  main .productosTemp div .text-center div .btn-light {
+    background-color: #d87070;
+    border-color: #d87070;
+    border-style: outset;
+    border-radius: 50px;
+    border-width: 2px; }
+    main .productosTemp div .text-center div .btn-light:hover {
+      background-color: #d89494;
+      border-color: #d87070; }
+
+main section {
+  margin-top: 3rem;
+  margin-bottom: 1rem; }
+  main section div {
+    color: maroon; }
+    main section div div .card-text {
+      color: #d87070; }
+    main section div div div .btn-light {
       background-color: #d87070;
       border-color: #d87070;
       border-style: outset;
       border-radius: 50px;
       border-width: 2px; }
-      main section div .text-center div .btn-light:hover {
+      main section div div div .btn-light:hover {
         background-color: #d89494;
         border-color: #d87070; }
-  main section {
-    margin-top: 3rem;
-    margin-bottom: 1rem; }
-    main section div {
-      color: maroon; }
-      main section div div .card-text {
-        color: #d87070; }
-      main section div div div .btn-light {
-        background-color: #d87070;
-        border-color: #d87070;
-        border-style: outset;
-        border-radius: 50px;
-        border-width: 2px; }
-        main section div div div .btn-light:hover {
-          background-color: #d89494;
-          border-color: #d87070; }
-  main div a .botonWsp {
-    -webkit-animation: heartbeat 2s steps(2, end) infinite both;
-    animation: heartbeat 2s steps(2, end) infinite both;
-    height: 80px;
-    padding: 10px 10px;
-    position: fixed;
-    bottom: 60px;
-    right: 0px;
-    z-index: 99;
-    border-radius: 700px; }
+
+main div a .botonWsp {
+  -webkit-animation: heartbeat 2s steps(2, end) infinite both;
+  animation: heartbeat 2s steps(2, end) infinite both;
+  height: 80px;
+  padding: 10px 10px;
+  position: fixed;
+  bottom: 60px;
+  right: 0px;
+  z-index: 99;
+  border-radius: 700px; }
 
 @-webkit-keyframes heartbeat {
   from {
@@ -268,7 +270,7 @@ main div a {
     background-color: #f0c18f;
     border-color: #d87070;
     border-radius: 15px;
-    margin-right: 150px; }
+    margin-right: 70px; }
 
 main div div form fieldset {
   color: maroon; }
@@ -291,8 +293,12 @@ main div div form section fieldset div div input {
   margin-top: 5px; }
 
 @media screen and (max-width: 560px) {
+  .productosTemp {
+    margin-top: 0; }
   .huevoPascua {
-    display: none; } }
+    display: none; }
+  main .productosTemp div .text-center {
+    margin-top: 20px; } }
 
 @media screen and (max-width: 320px) {
   .fotoUno {

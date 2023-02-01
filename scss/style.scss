@@ -5,11 +5,20 @@
 @import "./menu_producto";
 @import "./sesion_contacto";
 
-@media screen and (max-width: 560px) {
- .huevoPascua {
-  display:none;
- }
 
+
+
+@media screen and (max-width: 560px) {
+ 
+  .productosTemp {
+  margin-top: 0;
+ }
+  .huevoPascua {
+  display:none;
+  }
+  main .productosTemp div .text-center{
+    margin-top: 20px;
+  }
   }
 
 
