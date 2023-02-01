@@ -136,7 +136,7 @@ main .cardSection .row {
   flex-wrap: wrap;
   margin-right: 0;
   margin-left: 0; }
-  main .cardSection .row div div div {
+  main .cardSection .row div div .card-body {
     justify-content: center;
     text-align: center;
     color: maroon; }
@@ -156,20 +156,20 @@ main .productosTemp div .text-center {
       background-color: #d89494;
       border-color: #d87070; }
 
-main section {
+main .sectionPedido {
   margin-top: 3rem;
   margin-bottom: 1rem; }
-  main section div {
+  main .sectionPedido div {
     color: maroon; }
-    main section div div .card-text {
+    main .sectionPedido div div .card-text {
       color: #d87070; }
-    main section div div div .btn-light {
+    main .sectionPedido div div div .btn-light {
       background-color: #d87070;
       border-color: #d87070;
       border-style: outset;
       border-radius: 50px;
       border-width: 2px; }
-      main section div div div .btn-light:hover {
+      main .sectionPedido div div div .btn-light:hover {
         background-color: #d89494;
         border-color: #d87070; }
 
@@ -247,8 +247,35 @@ main div a .botonWsp {
   margin-top: auto; }
 
 main div h1 {
+  margin-top: 1rem;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 80px; }
+
+main .sectionFoto {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem; }
+  main .sectionFoto .aumento_escala:hover {
+    transform: scale(1.2); }
+  main .sectionFoto .aumento_escala div .fotoUno {
+    width: 220px;
+    height: 200px; }
+    main .sectionFoto .aumento_escala div .fotoUno:hover {
+      transform: scale(1.2); }
+  main .sectionFoto .aumento_escala div .card-img-overlay {
+    color: rgba(255, 255, 255, 0);
+    font-weight: 600; }
+    main .sectionFoto .aumento_escala div .card-img-overlay:hover {
+      animation-name: efecto_letras;
+      animation-iteration-count: infinite;
+      animation-duration: 10s; }
 
 main div a {
   display: flex;
@@ -260,6 +287,16 @@ main div a {
     border-color: #d87070;
     border-radius: 5px;
     margin-top: 5px; }
+
+@keyframes efecto_letras {
+  0% {
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    font-weight: 700; }
+  100% {
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    font-weight: 700; } }
 
 .headerBackground {
   background: linear-gradient(315deg, #efd8a4 0%, #da7070 100%); }
