@@ -131,58 +131,59 @@ header .colorbarra {
     header .colorbarra div div ul .btnEnfasis:hover {
       background-color: #d87070; }
 
-main .cardSection .row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: 0;
-  margin-left: 0; }
-  main .cardSection .row div div .card-body {
-    justify-content: center;
-    text-align: center;
-    color: maroon; }
-
-main .productosTemp div .huevoPascua {
-  width: 200px; }
-
-main .productosTemp div .text-center {
-  margin-top: 100px; }
-  main .productosTemp div .text-center div .btn-light {
-    background-color: #d87070;
-    border-color: #d87070;
-    border-style: outset;
-    border-radius: 50px;
-    border-width: 2px; }
-    main .productosTemp div .text-center div .btn-light:hover {
-      background-color: #d89494;
-      border-color: #d87070; }
-
-main .sectionPedido {
-  margin-top: 3rem;
-  margin-bottom: 1rem; }
-  main .sectionPedido div {
-    color: maroon; }
-    main .sectionPedido div div .card-text {
-      color: #d87070; }
-    main .sectionPedido div div div .btn-light {
+main {
+  margin-top: 1 rem; }
+  main .cardSection {
+    margin-top: 1rem;
+    margin-bottom: 2rem; }
+    main .cardSection .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 0;
+      margin-left: 0; }
+      main .cardSection .row div div .card-body {
+        justify-content: center;
+        text-align: center;
+        color: maroon; }
+  main .productosTemp div .huevoPascua {
+    width: 200px; }
+  main .productosTemp div .text-center {
+    margin-top: 100px; }
+    main .productosTemp div .text-center div .btn-light {
       background-color: #d87070;
       border-color: #d87070;
       border-style: outset;
       border-radius: 50px;
       border-width: 2px; }
-      main .sectionPedido div div div .btn-light:hover {
+      main .productosTemp div .text-center div .btn-light:hover {
         background-color: #d89494;
         border-color: #d87070; }
-
-main div a .botonWsp {
-  -webkit-animation: heartbeat 2s steps(2, end) infinite both;
-  animation: heartbeat 2s steps(2, end) infinite both;
-  height: 80px;
-  padding: 10px 10px;
-  position: fixed;
-  bottom: 60px;
-  right: 0px;
-  z-index: 99;
-  border-radius: 700px; }
+  main .sectionPedido {
+    margin-top: 3rem;
+    margin-bottom: 1rem; }
+    main .sectionPedido div {
+      color: maroon; }
+      main .sectionPedido div div .card-text {
+        color: #d87070; }
+      main .sectionPedido div div div .btn-light {
+        background-color: #d87070;
+        border-color: #d87070;
+        border-style: outset;
+        border-radius: 50px;
+        border-width: 2px; }
+        main .sectionPedido div div div .btn-light:hover {
+          background-color: #d89494;
+          border-color: #d87070; }
+  main div a .botonWsp {
+    -webkit-animation: heartbeat 2s steps(2, end) infinite both;
+    animation: heartbeat 2s steps(2, end) infinite both;
+    height: 80px;
+    padding: 10px 10px;
+    position: fixed;
+    bottom: 60px;
+    right: 0px;
+    z-index: 99;
+    border-radius: 700px; }
 
 @-webkit-keyframes heartbeat {
   from {
