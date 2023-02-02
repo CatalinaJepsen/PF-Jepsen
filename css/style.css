@@ -1,259 +1,258 @@
+/* reset de la pagina*/
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
-  *::selection {
-    background-color: #d87070;
-    color: white; }
+  box-sizing: border-box;
+}
+*::selection {
+  background-color: #d87070;
+  color: white;
+}
 
 body {
   background-color: #efd8a4;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; }
+  min-height: 100vh;
+}
 
 body::-webkit-scrollbar {
-  width: 8px; }
+  width: 8px;
+}
 
 body::-webkit-scrollbar-thumb {
   background-color: #d87070;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 a:link,
 a:visited,
 a:active {
   text-decoration: none;
-  color: black; }
+  color: black;
+}
 
 ul li {
-  list-style: none; }
+  list-style: none;
+}
+
+/*estilos header pagina principal*/
 
 header nav form .btn-formulario1 {
   background-color: #d87070;
   border-radius: 25px;
   border-color: #d87070;
   border-style: outset;
-  border-width: 3px; }
-  header nav form .btn-formulario1:hover {
-    background-color: #d89494;
-    border-color: #d87070; }
+  border-width: 3px;
+}
+header nav form .btn-formulario1:hover {
+  background-color: #d89494;
+  border-color: #d87070;
+}
 
 header nav form .btn-formulario2 {
   background-color: #d87070;
   border-radius: 25px;
   border-color: #d87070;
   border-style: outset;
-  border-width: 3px; }
-  header nav form .btn-formulario2:hover {
-    background-color: #d89494;
-    border-color: #d87070; }
-
-footer div section .btnRedes1 {
+  border-width: 3px;
+}
+header nav form .btn-formulario2:hover {
+  background-color: #d89494;
   border-color: #d87070;
-  border-style: outset;
-  border-radius: 50px;
-  border-width: 2px; }
+}
 
-footer div section .btnRedes2 {
-  border-color: #d87070;
-  border-style: outset;
+header nav a .logo11:hover {
+  background-color: #d89494;
+}
+
+header .colorbarra {
+  background-color: #f0c18f;
+}
+header .colorbarra div a .logo1 {
+  width: 100px;
   border-radius: 50px;
-  border-width: 2px; }
+}
+header .colorbarra div div ul .btnEnfasis {
+  font-size: larger;
+}
+header .colorbarra div div ul .btnEnfasis:hover {
+  background-color: #d87070;
+}
+
+/*estilos header paginas secundarias*/
+
+.headerBackground {
+  background: linear-gradient(315deg, #efd8a4 0%, #da7070 100%);
+}
+.headerBackground div button {
+  width: 100px;
+  height: 40px;
+  font-weight: 700;
+  background-color: #f0c18f;
+  border-color: #d87070;
+  border-radius: 15px;
+  margin-right: 70px;
+}
 
 header nav a .logo2 {
   width: 100px;
-  border-radius: 50px; }
-  header nav a .logo2:hover {
-    background-color: #d89494; }
+  border-radius: 50px;
+}
+header nav a .logo2:hover {
+  background-color: #d89494;
+}
 
 header nav a .logo3 {
   width: 100px;
-  border-radius: 50px; }
-  header nav a .logo3:hover {
-    background-color: #d89494; }
+  border-radius: 50px;
+}
+header nav a .logo3:hover {
+  background-color: #d89494;
+}
 
 header nav a .logo4 {
   width: 100px;
-  border-radius: 50px; }
-  header nav a .logo4:hover {
-    background-color: #d89494; }
+  border-radius: 50px;
+}
+header nav a .logo4:hover {
+  background-color: #d89494;
+}
 
 header nav a .logo5 {
   width: 100px;
-  border-radius: 50px; }
-  header nav a .logo5:hover {
-    background-color: #d89494; }
+  border-radius: 50px;
+}
+header nav a .logo5:hover {
+  background-color: #d89494;
+}
 
 header nav a .logo6 {
   width: 100px;
-  border-radius: 50px; }
-  header nav a .logo6:hover {
-    background-color: #d89494; }
+  border-radius: 50px;
+}
+header nav a .logo6:hover {
+  background-color: #d89494;
+}
 
 header nav a .logo7 {
   width: 100px;
-  border-radius: 50px; }
-  header nav a .logo7:hover {
-    background-color: #d89494; }
+  border-radius: 50px;
+}
+header nav a .logo7:hover {
+  background-color: #d89494;
+}
 
 header nav a .logo8 {
   width: 100px;
-  border-radius: 50px; }
-  header nav a .logo8:hover {
-    background-color: #d89494; }
+  border-radius: 50px;
+}
+header nav a .logo8:hover {
+  background-color: #d89494;
+}
 
 header nav a .logo9 {
   width: 100px;
-  border-radius: 50px; }
-  header nav a .logo9:hover {
-    background-color: #d89494; }
+  border-radius: 50px;
+}
+header nav a .logo9:hover {
+  background-color: #d89494;
+}
 
 header nav a .logo10 {
   width: 100px;
-  border-radius: 50px; }
-  header nav a .logo10:hover {
-    background-color: #d89494; }
+  border-radius: 50px;
+}
+header nav a .logo10:hover {
+  background-color: #d89494;
+}
 
 header nav a .logo11 {
   width: 100px;
-  border-radius: 50px; }
-  header nav a .logo11:hover {
-    background-color: #d89494; }
+  border-radius: 50px;
+}
 
-header .colorbarra {
-  background-color: #f0c18f; }
-  header .colorbarra div a .logo1 {
-    width: 100px;
-    border-radius: 50px; }
-  header .colorbarra div div ul .btnEnfasis {
-    font-size: larger; }
-    header .colorbarra div div ul .btnEnfasis:hover {
-      background-color: #d87070; }
-
+/* estilos main de pagina principal*/
 main {
-  margin-top: 1 rem; }
-  main .cardSection {
-    margin-top: 1rem;
-    margin-bottom: 2rem; }
-    main .cardSection .row {
-      display: flex;
-      flex-wrap: wrap;
-      margin-right: 0;
-      margin-left: 0; }
-      main .cardSection .row div div .card-body {
-        justify-content: center;
-        text-align: center;
-        color: maroon; }
-  main .productosTemp div .huevoPascua {
-    width: 200px; }
-  main .productosTemp div .text-center {
-    margin-top: 100px; }
-    main .productosTemp div .text-center div .btn-light {
-      background-color: #d87070;
-      border-color: #d87070;
-      border-style: outset;
-      border-radius: 50px;
-      border-width: 2px; }
-      main .productosTemp div .text-center div .btn-light:hover {
-        background-color: #d89494;
-        border-color: #d87070; }
-  main .sectionPedido {
-    margin-top: 3rem;
-    margin-bottom: 1rem; }
-    main .sectionPedido div {
-      color: maroon; }
-      main .sectionPedido div div .card-text {
-        color: #d87070; }
-      main .sectionPedido div div div .btn-light {
-        background-color: #d87070;
-        border-color: #d87070;
-        border-style: outset;
-        border-radius: 50px;
-        border-width: 2px; }
-        main .sectionPedido div div div .btn-light:hover {
-          background-color: #d89494;
-          border-color: #d87070; }
-  main div a .botonWsp {
-    -webkit-animation: heartbeat 2s steps(2, end) infinite both;
-    animation: heartbeat 2s steps(2, end) infinite both;
-    height: 80px;
-    padding: 10px 10px;
-    position: fixed;
-    bottom: 60px;
-    right: 0px;
-    z-index: 99;
-    border-radius: 700px; }
+  margin-top: 1 rem;
+}
+main .cardSection {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+main .cardSection .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0;
+  margin-left: 0;
+}
+main .cardSection .row div div .card-body {
+  justify-content: center;
+  text-align: center;
+  color: maroon;
+}
 
-@-webkit-keyframes heartbeat {
-  from {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transform-origin: center center;
-    transform-origin: center center;
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out; }
-  10% {
-    -webkit-transform: scale(0.91);
-    transform: scale(0.91);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in; }
-  17% {
-    -webkit-transform: scale(0.98);
-    transform: scale(0.98);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out; }
-  33% {
-    -webkit-transform: scale(0.87);
-    transform: scale(0.87);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in; }
-  45% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out; } }
+main .productosTemp div .huevoPascua {
+  width: 200px;
+}
+main .productosTemp div .text-center {
+  margin-top: 100px;
+}
+main .productosTemp div .text-center div .btn-light {
+  background-color: #d87070;
+  border-color: #d87070;
+  border-style: outset;
+  border-radius: 50px;
+  border-width: 2px;
+}
+main .productosTemp div .text-center div .btn-light:hover {
+  background-color: #d89494;
+  border-color: #d87070;
+}
+main .sectionPedido {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+main .sectionPedido div {
+  color: maroon;
+}
+main .sectionPedido div div .card-text {
+  color: #d87070;
+}
+main .sectionPedido div div div .btn-light {
+  background-color: #d87070;
+  border-color: #d87070;
+  border-style: outset;
+  border-radius: 50px;
+  border-width: 2px;
+}
+main .sectionPedido div div div .btn-light:hover {
+  background-color: #d89494;
+  border-color: #d87070;
+}
+main div a .botonWsp {
+  -webkit-animation: heartbeat 2s steps(2, end) infinite both;
+  animation: heartbeat 2s steps(2, end) infinite both;
+  height: 80px;
+  padding: 10px 10px;
+  position: fixed;
+  bottom: 60px;
+  right: 0px;
+  z-index: 99;
+  border-radius: 700px;
+}
 
-@keyframes heartbeat {
-  from {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transform-origin: center center;
-    transform-origin: center center;
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out; }
-  10% {
-    -webkit-transform: scale(0.91);
-    transform: scale(0.91);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in; }
-  17% {
-    -webkit-transform: scale(0.98);
-    transform: scale(0.98);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out; }
-  33% {
-    -webkit-transform: scale(0.87);
-    transform: scale(0.87);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in; }
-  45% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out; } }
-
-.footerFondo {
-  background-color: #f0c18f;
-  margin-top: auto; }
-
+/*estilos main paginas secundarias*/
 main div h1 {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-weight: 700;
-  font-size: 80px; }
+  font-size: 80px;
+}
 
 main .sectionFoto {
   display: flex;
@@ -262,65 +261,54 @@ main .sectionFoto {
   margin-top: 3rem;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 3rem; }
-  main .sectionFoto .aumento_escala:hover {
-    transform: scale(1.2); }
-  main .sectionFoto .aumento_escala div .fotoUno {
-    width: 220px;
-    height: 200px; }
-    main .sectionFoto .aumento_escala div .fotoUno:hover {
-      transform: scale(1.2); }
-  main .sectionFoto .aumento_escala div .card-img-overlay {
-    color: rgba(255, 255, 255, 0);
-    font-weight: 600; }
-    main .sectionFoto .aumento_escala div .card-img-overlay:hover {
-      animation-name: efecto_letras;
-      animation-iteration-count: infinite;
-      animation-duration: 10s; }
+  margin-bottom: 3rem;
+}
+main .sectionFoto .aumento_escala:hover {
+  transform: scale(1.2);
+}
+main .sectionFoto .aumento_escala div .fotoUno {
+  width: 220px;
+  height: 200px;
+}
+main .sectionFoto .aumento_escala div .fotoUno:hover {
+  transform: scale(1.2);
+}
+main .sectionFoto .aumento_escala div .card-img-overlay {
+  color: rgba(255, 255, 255, 0);
+  font-weight: 600;
+}
+main .sectionFoto .aumento_escala div .card-img-overlay:hover {
+  animation-name: efecto_letras;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
 
 main div a {
   display: flex;
   justify-content: center;
-  align-items: center; }
-  main div a .volverAtras {
-    font-weight: 700;
-    background-color: #f0c18f;
-    border-color: #d87070;
-    border-radius: 5px;
-    margin-top: 5px;
-    margin-bottom: 15px; }
-
-@keyframes efecto_letras {
-  0% {
-    background-color: rgba(0, 0, 0, 0.767);
-    color: white;
-    font-weight: 700; }
-  100% {
-    background-color: rgba(0, 0, 0, 0.767);
-    color: white;
-    font-weight: 700; } }
-
-.headerBackground {
-  background: linear-gradient(315deg, #efd8a4 0%, #da7070 100%); }
-  .headerBackground div button {
-    width: 100px;
-    height: 40px;
-    font-weight: 700;
-    background-color: #f0c18f;
-    border-color: #d87070;
-    border-radius: 15px;
-    margin-right: 70px; }
+  align-items: center;
+}
+main div a .volverAtras {
+  font-weight: 700;
+  background-color: #f0c18f;
+  border-color: #d87070;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
 
 main div div form fieldset {
-  color: maroon; }
-  main div div form fieldset input {
-    width: 60px;
-    height: 30px;
-    font-weight: 700;
-    background-color: #f0c18f;
-    border-color: #d87070;
-    border-radius: 5px;
-    margin-top: 5px; }
+  color: maroon;
+}
+main div div form fieldset input {
+  width: 60px;
+  height: 30px;
+  font-weight: 700;
+  background-color: #f0c18f;
+  border-color: #d87070;
+  border-radius: 5px;
+  margin-top: 5px;
+}
 
 main div div form section fieldset div div input {
   width: 60px;
@@ -329,21 +317,131 @@ main div div form section fieldset div div input {
   background-color: #f0c18f;
   border-color: #d87070;
   border-radius: 5px;
-  margin-top: 5px; }
+  margin-top: 5px;
+}
+
+/* estilos footer de todas las paginas*/
+.footerFondo {
+  background-color: #f0c18f;
+  margin-top: auto;
+}
+
+footer div section .btnRedes1 {
+  border-color: #d87070;
+  border-style: outset;
+  border-radius: 50px;
+  border-width: 2px;
+}
+
+footer div section .btnRedes2 {
+  border-color: #d87070;
+  border-style: outset;
+  border-radius: 50px;
+  border-width: 2px;
+}
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes efecto_letras {
+  0% {
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    font-weight: 700;
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    font-weight: 700;
+  }
+}
 
 @media screen and (max-width: 560px) {
   .productosTemp {
-    margin-top: 0; }
+    margin-top: 0;
+  }
   .huevoPascua {
-    display: none; }
+    display: none;
+  }
   main .productosTemp div .text-center {
-    margin-top: 20px; } }
+    margin-top: 20px;
+  }
+}
 
 @media screen and (max-width: 320px) {
   .fotoUno {
     height: 150px;
-    width: 130px; }
-  iframe {
-    width: 200px; }
+    width: 130px;
+  }
+
   .botonWsp {
-    display: none; } }
+    display: none;
+  }
+}
