@@ -287,7 +287,8 @@ main div a {
     background-color: #f0c18f;
     border-color: #d87070;
     border-radius: 5px;
-    margin-top: 5px; }
+    margin-top: 5px;
+    margin-bottom: 15px; }
 
 @keyframes efecto_letras {
   0% {
