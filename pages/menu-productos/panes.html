@@ -18,16 +18,26 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <!--fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+
     <!--hoja estilo css-->
     <link rel="stylesheet" href="../../css/style.css" />
   </head>
   <body>
+    <!--header navbar-->
     <header class="headerBackground">
       <nav class="navbar navbar-light">
+        <!--logo con ruteo a inicio-->
         <a class="navbar-brand" href="../../index.html"
           ><img class="logo6" src="../../assets/images/logo.webp" alt="inicio"
         /></a>
-
+        <!--menu anidado en boton menu-->
         <div class="dropdown" dropdown-menu>
           <button
             class="btn-lg dropdown-toggle"
@@ -64,15 +74,16 @@
     </header>
 
     <main>
+      <!--seccion galeria ilustrativa-->
       <div>
-        <h1 class="despliegueMenu">Panes</h1>
+        <h1>Panes</h1>
       </div>
       <section class="sectionFoto">
         <div class="aumento_escala">
           <div class="card text-bg-dark">
             <img
               class="fotoUno"
-              src="../../assets/images/panintegral.webp"
+              src="../../assets/images/panes/panintegral.webp"
               class="card-img"
               alt="Bollitos"
             />
@@ -90,7 +101,7 @@
           <div class="card text-bg-dark">
             <img
               class="fotoUno"
-              src="../../assets/images/panlactal.webp"
+              src="../../assets/images/panes/panlactal.webp"
               class="card-img"
               alt="Pan Lactal"
             />
@@ -106,7 +117,7 @@
           <div class="card text-bg-dark">
             <img
               class="fotoUno"
-              src="../../assets/images/panarabe1.webp"
+              src="../../assets/images/panes/panarabe1.webp"
               class="card-img"
               alt="Panes especiales"
             />
@@ -121,7 +132,33 @@
           </div>
         </div>
       </section>
-
+      <!--card politica de pedidos-->
+      <section class="sectionPedido">
+        <div class="card text-center bg-transparent">
+          <div class="card-header text-warnig">
+            <h2>Pan fresco en tu mesa</h2>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Estamos esperando tu mensaje</h5>
+            <p class="card-text">
+              ¿Sabías que nuestros panes son aptos freezer? Estan pensados para
+              que puedas stockearte y consumirlos cuando quieras.
+            </p>
+            <div>
+              <a
+                href="https://api.whatsapp.com/send?phone=5491156542170"
+                target="_blank"
+                class="btn btn-light"
+                >Enviar un mensaje a La Oma</a
+              >
+            </div>
+          </div>
+          <div class="card-footer text-muted">
+            Los pedidos de pan se hacen con un mínimo de 2 días de anticipación.
+          </div>
+        </div>
+      </section>
+      <!--boton whatsapp-->
       <div>
         <a
           href="https://api.whatsapp.com/send?phone=5491156542170"

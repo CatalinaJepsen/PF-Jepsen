@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La Oma-Pastas</title>
-    <meta name="description" content="Pastas para todos los gustos">
-    <meta name="keywords" content="pastas rellenas, fideos, raviol, sorrentino, italia">
+    <meta name="description" content="Pastas para todos los gustos" />
+    <meta
+      name="keywords"
+      content="pastas rellenas, fideos, raviol, sorrentino, italia"
+    />
 
     <!--Hoja de estilos boostrap-->
     <link
@@ -15,17 +18,30 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <!--fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+
     <!--hoja estilo css-->
     <link rel="stylesheet" href="../../css/style.css" />
   </head>
   <body>
+    <!--header navbar-->
     <header class="headerBackground">
       <nav class="navbar navbar-light">
+        <!--logo con ruteo a inicio-->
         <a class="navbar-brand" href="../../index.html"
-          ><img class="logo5" src="../../assets/images/logo.webp" alt="inicio" />
-          </a
-        >
-
+          ><img
+            class="logo5"
+            src="../../assets/images/logo.webp"
+            alt="inicio"
+          />
+        </a>
+        <!--menu anidado en boton menu-->
         <div class="dropdown" dropdown-menu>
           <button
             class="btn-lg dropdown-toggle"
@@ -62,21 +78,24 @@
     </header>
 
     <main>
+      <!--seccion galeria ilustrativa-->
+
       <div>
-        <h1 class="despliegueMenu">Pastas</h1>
+        <h1>Pastas</h1>
         <section class="sectionFoto">
           <div class="aumento_escala">
             <div class="card text-bg-dark">
               <img
                 class="fotoUno"
-                src="../../assets/images/sorrentinocaprese.webp"
+                src="../../assets/images/pastas/sorrentinocaprese.webp"
                 class="card-img"
                 alt="sorrentino"
               />
               <div class="card-img-overlay">
                 <h5 class="card-title">Sorrentinos</h5>
                 <p class="card-text">
-                  De muzzarella y Jamón, Caprese y veganos con rellenos aptos y masa sin huevo.
+                  De muzzarella y Jamón, Caprese y veganos con rellenos aptos y
+                  masa sin huevo.
                 </p>
               </div>
             </div>
@@ -85,14 +104,15 @@
             <div class="card text-bg-dark">
               <img
                 class="fotoUno"
-                src="../../assets/images/tagliatelle.webp"
+                src="../../assets/images/pastas/tagliatelle.webp"
                 class="card-img"
                 alt="tagliatelle"
               />
               <div class="card-img-overlay">
                 <h5 class="card-title">Tagliatelle</h5>
                 <p class="card-text">
-                 Cintas clásicas al huevo, con morrones asados o espinaca fresca.
+                  Cintas clásicas al huevo, con morrones asados o espinaca
+                  fresca.
                 </p>
               </div>
             </div>
@@ -101,14 +121,15 @@
             <div class="card text-bg-dark">
               <img
                 class="fotoUno"
-                src="../../assets/images/raviol.webp"
+                src="../../assets/images/pastas/raviol.webp"
                 class="card-img"
                 alt="raviol"
               />
               <div class="card-img-overlay">
                 <h5 class="card-title">Raviolones</h5>
                 <p class="card-text">
-                  No solo nuestros rellenos son estrellas, las masas de las pastas también tienen sabor.
+                  No solo nuestros rellenos son estrellas, las masas de las
+                  pastas también tienen sabor.
                 </p>
               </div>
             </div>
@@ -117,30 +138,57 @@
             <div class="card text-bg-dark">
               <img
                 class="fotoUno"
-                src="../../assets/images/noqui.webp"
+                src="../../assets/images/pastas/noqui.webp"
                 class="card-img"
                 alt="noqui"
               />
               <div class="card-img-overlay">
                 <h5 class="card-title">Ñoquis</h5>
                 <p class="card-text">
-                  De espinaca o clásicos ¿Cuál preferís?
-                  Te salvan de todo apuro.
+                  De espinaca o clásicos ¿Cuál preferís? Te salvan de todo
+                  apuro.
                 </p>
               </div>
             </div>
           </div>
         </section>
+        <!--card politica de pedidos-->
+        <section class="sectionPedido">
+          <div class="card text-center bg-transparent">
+            <div class="card-header text-warnig">
+              <h2>¡Envianos un mensaje!</h2>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Consultanos stock de pastas.</h5>
+              <p class="card-text">
+                Comunicate a través de nuestro whatsapp para encargarnos tus
+                pastas. Contamos con stock para retirar en el día o podes
+                hacernos tus pedidos especiales con antelación.
+              </p>
+              <div>
+                <a
+                  href="https://api.whatsapp.com/send?phone=5491156542170"
+                  target="_blank"
+                  class="btn btn-light"
+                  >Enviar un mensaje a La Oma</a
+                >
+              </div>
+            </div>
+            <div class="card-footer text-muted">Sujeto a disponibilidad.</div>
+          </div>
+        </section>
+        <!--boton whatsapp-->
         <div>
-        <a
-          href="https://api.whatsapp.com/send?phone=5491156542170"
-          target="_blank"
-        >
-          <img
-            class="botonWsp"
-            src="../../assets/images/icono-wsp.webp"
-            alt="whatsapp"
-        /></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=5491156542170"
+            target="_blank"
+          >
+            <img
+              class="botonWsp"
+              src="../../assets/images/icono-wsp.webp"
+              alt="whatsapp"
+          /></a>
+        </div>
       </div>
     </main>
     <!--footer-->

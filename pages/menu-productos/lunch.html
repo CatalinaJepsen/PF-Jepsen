@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La Oma-Lunch</title>
-    <meta name="description" content="Servicio de Lunch catering y sandwicheria">
-    <meta name="keywords" content="sandwich, pan, fiambre, catering, eventos">
+    <meta
+      name="description"
+      content="Servicio de Lunch catering y sandwicheria"
+    />
+    <meta name="keywords" content="sandwich, pan, fiambre, catering, eventos" />
 
     <!--Hoja de estilos boostrap-->
     <link
@@ -15,15 +18,26 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <!--fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+
     <!--hoja estilo css-->
     <link rel="stylesheet" href="../../css/style.css" />
   </head>
   <body>
+    <!--header navbar-->
     <header class="headerBackground">
       <nav class="navbar navbar-light">
+        <!--logo con ruteo a inicio-->
         <a class="navbar-brand" href="../../index.html"
-          ><img class="logo7" src="../../assets/images/logo.webp" alt="inicio" /></a>
-
+          ><img class="logo7" src="../../assets/images/logo.webp" alt="inicio"
+        /></a>
+        <!--menu anidado en boton menu-->
         <div class="dropdown" dropdown-menu>
           <button
             class="btn-lg dropdown-toggle"
@@ -60,69 +74,100 @@
     </header>
 
     <main>
+      <!--seccion galeria ilustrativa-->
       <div>
-        <h1 class="despliegueMenu">Lunch</h1>
+        <h1>Lunch</h1>
         <section class="sectionFoto">
-        <div class="aumento_escala">
-          <div class="card text-bg-dark">
-            <img
-              class="fotoUno"
-              src="../../assets/images/IMG-0587.webp"
-              class="card-img"
-              alt="sandwich"
-            />
-            <div class="card-img-overlay">
-              <h5 class="card-title">Sandwiches Copetín</h5>
-              <p class="card-text">
-                Riquisimos, pancitos saborizados con los rellenos que más te gustan.
-              </p>
+          <div class="aumento_escala">
+            <div class="card text-bg-dark">
+              <img
+                class="fotoUno"
+                src="../../assets/images/lunch/img-0587.webp"
+                class="card-img"
+                alt="sandwich"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Sandwiches Copetín</h5>
+                <p class="card-text">
+                  Riquisimos, pancitos saborizados con los rellenos que más te
+                  gustan.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="aumento_escala">
-          <div class="card text-bg-dark">
-            <img
-              class="fotoUno"
-              src="../../assets/images/bocaditosdulces.webp"
-              class="card-img"
-              alt="bocaditos dulces"
-            />
-            <div class="card-img-overlay">
-              <h5 class="card-title">Bocaditos Dulces</h5>
-              <p class="card-text">
-                ¡Acompañá tus fiestas y reuniones con nuestros bocaditos dulces!
-              </p>
+          <div class="aumento_escala">
+            <div class="card text-bg-dark">
+              <img
+                class="fotoUno"
+                src="../../assets/images/lunch/bocaditosdulces.webp"
+                class="card-img"
+                alt="bocaditos dulces"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Bocaditos Dulces</h5>
+                <p class="card-text">
+                  ¡Acompañá tus fiestas y reuniones con nuestros bocaditos
+                  dulces!
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="aumento_escala">
-          <div class="card text-bg-dark">
-            <img
-              class="fotoUno"
-              src="../../assets/images/petitfour.webp"
-              class="card-img"
-              alt="Petit Four"
-            />
-            <div class="card-img-overlay">
-              <h5 class="card-title">Petit Four</h5>
-              <p class="card-text">
-                La hora del té se disfruta más con nuestra variedad de Petit
-              </p>
+          <div class="aumento_escala">
+            <div class="card text-bg-dark">
+              <img
+                class="fotoUno"
+                src="../../assets/images/lunch/petitfour.webp"
+                class="card-img"
+                alt="Petit Four"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Petit Four</h5>
+                <p class="card-text">
+                  La hora del té se disfruta más con nuestra variedad de Petit
+                </p>
+              </div>
             </div>
           </div>
+        </section>
+        <!--card politica de pedidos-->
+        <section class="sectionPedido">
+          <div class="card text-center bg-transparent">
+            <div class="card-header text-warnig">
+              <h2>Armá tu evento con nosotros</h2>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Te asesoramos por whatsapp</h5>
+              <p class="card-text">
+                Hacé de tu evento un momento disfrutable, despreocupate que
+                cocina La Oma.
+              </p>
+              <div>
+                <a
+                  href="https://api.whatsapp.com/send?phone=5491156542170"
+                  target="_blank"
+                  class="btn btn-light"
+                  >Enviar un mensaje a La Oma</a
+                >
+              </div>
+            </div>
+            <div class="card-footer text-muted">
+              Para poder brindarte un servicio de excelencia, comunicaate con
+              anticipación.
+            </div>
+          </div>
+        </section>
+        <!--boton whatsapp-->
+        <div>
+          <a
+            href="https://api.whatsapp.com/send?phone=5491156542170"
+            target="_blank"
+          >
+            <img
+              class="botonWsp"
+              src="../../assets/images/icono-wsp.webp"
+              alt="whatsapp"
+          /></a>
         </div>
-      </section>
-
-      <div>
-        <a
-          href="https://api.whatsapp.com/send?phone=5491156542170"
-          target="_blank"
-        >
-          <img
-            class="botonWsp"
-            src="../../assets/images/icono-wsp.webp"
-            alt="whatsapp"
-        /></a>
       </div>
     </main>
     <!--footer-->
